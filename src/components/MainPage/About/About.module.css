@@ -1,0 +1,48 @@
+.header{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+
+
+.aboutInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+
+    width: 760px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-size: 22px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.download {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+
+
+}
+
+
+.shopBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.shopBlockItem {
+    margin: 20px 15px;
+
+
+}

@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.back {
+    background: url("img/background-mainPage.png") no-repeat center / cover;
+}
+
+.about__back {
+    background: url("img/back-about.png") no-repeat center / cover;
+}

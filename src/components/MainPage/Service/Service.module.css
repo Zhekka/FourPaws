@@ -1,0 +1,48 @@
+.header {
+    text-align: center;
+    margin: 100px 0;
+    text-transform: uppercase;
+
+
+}
+
+.servicePlace {
+    display: flex;
+    margin-bottom: 200px;
+    height: 300px;
+
+}
+
+.servicePlace__item__img {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+}
+
+.servicePlace__item {
+    transition: 0.3s;
+    border: 2px solid #FF4409;
+    height: 300px;
+
+
+    border-radius: 35px;
+    text-align: center;
+    width: 33.33%;
+    margin-right: 30px;
+
+}
+.servicePlace__item h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.servicePlace__item:hover {
+
+    height: 305px;
+    width: 338px;
+    border-color:white;
+    cursor: pointer;
+    border-radius: 35px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
