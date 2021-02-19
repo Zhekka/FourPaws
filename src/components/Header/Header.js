@@ -10,22 +10,22 @@ export default function Header() {
                 <NavLink to="/main"><img className={style.logo} src={logo} alt="Four paws"/></NavLink>
                 <ul className={style.menu}>
                     <li>
-                        <NavLink to='/main'>Головна</NavLink>
+                        <NavLink to='/main' activeClassName={style.activeLink}>Головна</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/service'>Сервіс</NavLink>
+                        <NavLink to='/service' activeClassName={style.activeLink}>Сервіс</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/forum'>Форум</NavLink>
+                        <NavLink to='/forum' activeClassName={style.activeLink}>Форум</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/advertisement'>Оголошення</NavLink>
+                        <NavLink to='/advertisement' activeClassName={style.activeLink}>Оголошення</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/directory'>Довідник</NavLink>
+                        <NavLink to='/directory' activeClassName={style.activeLink}>Довідник</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/login'>Увійти</NavLink>
+                        <NavLink to='/login' activeClassName={style.activeLink}>Увійти</NavLink>
                     </li>
 
                 </ul>

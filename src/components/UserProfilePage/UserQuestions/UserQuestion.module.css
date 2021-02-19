@@ -1,0 +1,48 @@
+.forum {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.forumBlock {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+
+
+}
+
+.forumBlock__item {
+    width: 33.33%;
+    text-align: center;
+
+
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.btnShowMore{
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FF9C09;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.btn__loadMore {
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #FF4409;
+
+}

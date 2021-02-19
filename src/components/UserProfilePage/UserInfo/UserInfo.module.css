@@ -1,0 +1,26 @@
+.userInfo {
+   padding-top: 30px;
+
+
+}
+
+.userAva {
+    width: 80px;
+}
+
+.infoBlock {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    display: flex;
+
+}
+
+.infoBlock__item {
+    width: 33.33%;
+    text-align: center;
+    margin-top: 20px;
+}
+.header {
+    margin-left: 40px;
+}

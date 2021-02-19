@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9c45e10-c3aa-42b3-af3b-c31887cbdea4" name="Default Changelist" comment="" />
+    <list default="true" id="b9c45e10-c3aa-42b3-af3b-c31887cbdea4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginHeader/LoginHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/Registration/Registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserInfo/UserInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserInfo/UserInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserProfilePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserProfilePage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserQuestions/UserQuestion.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfilePage/UserQuestions/UserQuestions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oT78SRKqO02xsdnHEyqPnSlLIm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,16 +66,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Женя\Desktop\PROJECTanimal" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Женя\Desktop\PROJECTanimal" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Женя\Desktop\PROJECTanimal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,17 +105,60 @@
       <option name="presentableId" value="Default" />
       <updated>1613298566279</updated>
       <workItem from="1613298567317" duration="620000" />
-      <workItem from="1613299336405" duration="521000" />
+      <workItem from="1613299336405" duration="760000" />
+      <workItem from="1613300112865" duration="4697000" />
+      <workItem from="1613311491370" duration="7386000" />
+      <workItem from="1613331384459" duration="5144000" />
+      <workItem from="1613504253707" duration="6278000" />
+      <workItem from="1613676699775" duration="4314000" />
+      <workItem from="1613725483337" duration="1950000" />
+      <workItem from="1613758600938" duration="4103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613298576061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613298576061" />
+    <state width="1899" height="140" key="GridCell.Tab.0.bottom" timestamp="1613681090886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613681090886" />
+    <state width="1899" height="140" key="GridCell.Tab.0.center" timestamp="1613681090885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="140" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613681090885" />
+    <state width="1899" height="140" key="GridCell.Tab.0.left" timestamp="1613681090885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="140" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613681090885" />
+    <state width="1899" height="140" key="GridCell.Tab.0.right" timestamp="1613681090886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="140" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613681090886" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1613300099248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613300099248" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1613334639400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613334639400" />
   </component>
 </project>

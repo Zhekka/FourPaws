@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import MainPart from "./components/MainPage/MainPart";
 import {Redirect, BrowserRouter, Route} from "react-router-dom";
@@ -7,6 +8,8 @@ import AdvertisementPage from "./components/AdvertisementPage/AdvertisementPage"
 import DirectoryPage from "./components/DirectoryPage/DirectoryPage";
 import ForumPage from "./components/ForumPage/ForumPage";
 import LoginPage from "./components/LoginPage/LoginPage";
+import UserProfilePage from "./components/UserProfilePage/UserProfilePage";
+import Registration from "./components/LoginPage/Registration/Registration";
 
 
 function App() {
@@ -23,6 +26,10 @@ function App() {
                 <Route path='/directory' render={() => <DirectoryPage/>}/>
                 <Route path='/forum' render={() => <ForumPage/>}/>
                 <Route path='/login' render={() => <LoginPage/>}/>
+
+                <Route path='/user' render={() => <UserProfilePage/>}/>
+                <Route path='/login/registration' render={() => <Registration/>}/>
+
 
 
             </div>
